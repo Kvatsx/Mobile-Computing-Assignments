@@ -1,7 +1,0 @@
-Kaustav Vats (2016048)
-
-Link to APK: https://github.com/kaustavvats/iiitd-m2018-cse535/tree/home-assignment-1/Assignment-1/Assignment%20APK
-
-Link to Assignment-1: https://github.com/kaustavvats/iiitd-m2018-cse535/tree/home-assignment-1/Assignment-1
-
-Link to Repository: https://github.com/kaustavvats/iiitd-m2018-cse535/tree/home-assignment-1
