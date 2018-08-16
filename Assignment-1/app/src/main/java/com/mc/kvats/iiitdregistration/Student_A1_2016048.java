@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
-public class Student implements Serializable {
+public class Student_A1_2016048 implements Serializable {
     private String Name;
     private String RollNumber;
     private String Branch;
     private ArrayList<String> Courses;
 
-    public Student(String name, String roll, String branch) {
+    public Student_A1_2016048(String name, String roll, String branch) {
         this.Name = name;
         this.RollNumber = roll;
         this.Branch = branch;

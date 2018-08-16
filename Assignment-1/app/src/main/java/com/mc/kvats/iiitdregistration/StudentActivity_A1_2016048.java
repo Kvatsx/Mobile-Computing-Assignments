@@ -1,6 +1,5 @@
 package com.mc.kvats.iiitdregistration;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,8 +7,8 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class StudentActivity extends AppCompatActivity {
-    public static final String TAG = "StudentActivity";
+public class StudentActivity_A1_2016048 extends AppCompatActivity {
+    public static final String TAG = "StudentActiv_A1_2016048";
     public static String CurrentState;
 
     TextView tvName, tvRollNumber, tvBranch, tvCourse1, tvCourse2, tvCourse3, tvCourse4;
@@ -23,8 +22,8 @@ public class StudentActivity extends AppCompatActivity {
 
 //        Log.d(TAG, "Layout Set");
         Intent i = getIntent();
-        Student student = (Student)i.getSerializableExtra("studentObject");
-//        Log.d(TAG, "Student Object Loaded");
+        Student_A1_2016048 student = (Student_A1_2016048)i.getSerializableExtra("studentObject");
+//        Log.d(TAG, "Student_A1_2016048 Object Loaded");
 
         tvName = (TextView) findViewById(R.id.name);
         tvBranch = (TextView) findViewById(R.id.branch);

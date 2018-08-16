@@ -1,7 +1,6 @@
 package com.mc.kvats.iiitdregistration;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,8 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
-    public static final String TAG = "MainActivity";
+public class MainActivity_A1_2016048 extends AppCompatActivity {
+    public static final String TAG = "MainActivity_A1_2016048";
     public static String CurrentState;
 
     EditText etName, etRollNumber, etBranch, etCourse1, etCourse2, etCourse3, etCourse4;
@@ -54,15 +53,15 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         else {
-            Student student = new Student(etName.getText().toString().trim(), etRollNumber.getText().toString().trim(), etBranch.getText().toString().trim());
+            Student_A1_2016048 student = new Student_A1_2016048(etName.getText().toString().trim(), etRollNumber.getText().toString().trim(), etBranch.getText().toString().trim());
             student.addCourse(etCourse1.getText().toString().trim());
             student.addCourse(etCourse2.getText().toString().trim());
             student.addCourse(etCourse3.getText().toString().trim());
             student.addCourse(etCourse4.getText().toString().trim());
-//            Log.d(TAG, "Student Object Created.");
-            Intent i = new Intent(MainActivity.this, StudentActivity.class);
+//            Log.d(TAG, "Student_A1_2016048 Object Created.");
+            Intent i = new Intent(MainActivity_A1_2016048.this, StudentActivity_A1_2016048.class);
             i.putExtra("studentObject", student);
-//            Log.d(TAG, "Student Object transfer ready for next activity");
+//            Log.d(TAG, "Student_A1_2016048 Object transfer ready for next activity");
             startActivity(i);
         }
     }
