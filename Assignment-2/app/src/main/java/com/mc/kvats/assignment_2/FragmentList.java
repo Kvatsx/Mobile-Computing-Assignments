@@ -32,8 +32,8 @@ public class FragmentList extends Fragment {
 
     File filesInDirectory[];
     ArrayList<String> songlist;
-    final int[] resID = {R.raw.attention, R.raw.mercy , R.raw.thepunisheropeningthemesong, R.raw.yara, R.raw.down, R.raw.ennasona, R.raw.wwesong};
-    final String[] items = {"Attention", "Mercy", "Punisher Theme song", "Yara teri yari ko", "Down Jason", "Enna Sona", "WWE Song"};
+    final int[] resID = {R.raw.attention, R.raw.wwesong, R.raw.yara};
+    final String[] items = {"Attention", "WWE Song", "Yara teri yari ko"};
 
     public FragmentList() {
         // Required empty public constructor
