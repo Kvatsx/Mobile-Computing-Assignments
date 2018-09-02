@@ -32,8 +32,8 @@ public class FragmentList extends Fragment {
 
     File filesInDirectory[];
     ArrayList<String> songlist;
-    final int[] resID = {R.raw.attention, R.raw.wwesong, R.raw.yara};
-    final String[] items = {"Attention", "WWE Song", "Yara teri yari ko"};
+    final int[] resID = {R.raw.wwesong, R.raw.yara};
+    final String[] items = {"WWE Song", "Yara teri yari ko"};
 
     public FragmentList() {
         // Required empty public constructor
