@@ -33,8 +33,7 @@
             android:orientation="horizontal"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="10dp">
+            android:layout_marginRight="20dp">
 
             <Button
                 android:id="@+id/true_button"
@@ -67,12 +66,29 @@
         <Button
             android:id="@+id/save_button"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_margin="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:text="@string/save"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:backgroundTint="@color/colorAccent"
+            android:textStyle="bold"
+            android:background="@drawable/save_button_background"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorPrimary"
             android:textStyle="bold"
             android:background="@drawable/submit_button_background"/>
 

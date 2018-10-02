@@ -1,11 +1,13 @@
 package com.mc.kvats.quizapp;
 
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +17,7 @@ import java.util.List;
 
 
 public class MainListFragment extends Fragment {
+    private static final String TAG= "MainListFragment.class";
 
     private OnFragmentInteractionListener mListener;
 
@@ -23,6 +26,8 @@ public class MainListFragment extends Fragment {
     private RecyclerView.LayoutManager layoutManager;
 
     private List<Question> questionList;
+    private Helper hp = Helper.getInstance();
+    private SQLiteDatabase db;
 
     public MainListFragment() {
         // Required empty public constructor
@@ -41,6 +46,15 @@ public class MainListFragment extends Fragment {
         super.onCreate(savedInstanceState);
         questionList = new ArrayList<Question>();
         populateQuestionsList();
+        db = getContext().openOrCreateDatabase(hp.DATABASE_NAME, getContext().MODE_PRIVATE, null);
+        db.execSQL("CREATE TABLE IF NOT EXISTS QuestionAnswer(ID INTEGER PRIMARY KEY AUTOINCREMENT, Question TEXT, Answer TEXT)");
+
+        for ( int i=0; i<questionList.size(); i++ ) {
+            String q = questionList.get(i).getQuestion();
+            db.execSQL("INSERT INTO QuestionAnswer VALUES(NULL, '" + q + "','" + "0" + "');");
+            Log.d(TAG, "Mssg: "+q);
+        }
+
     }
 
     @Override
