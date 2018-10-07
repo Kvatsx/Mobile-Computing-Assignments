@@ -218,7 +218,7 @@ public class MainListFragment extends Fragment {
         );
         questionList.add(
                 new Question(
-                        "You need to delete a contact and creat a new one to change contact information.",
+                        "You need to delete a contact and create a new one to change contact information.",
                         null
                 )
         );

@@ -21,7 +21,7 @@ public class QuestionDetailsFragment extends Fragment {
     private String id;
 
     private TextView textView;
-    private Button true_button, false_button, save_button, submit_button;
+    private Button true_button, false_button, save_button;
     private String button_selected; // 0 not selected, 1 true selected, 2 false selected
 
     private Helper hp = Helper.getInstance();
@@ -55,7 +55,6 @@ public class QuestionDetailsFragment extends Fragment {
         true_button = (Button) rootView.findViewById(R.id.true_button);
         false_button = (Button) rootView.findViewById(R.id.false_button);
         save_button = (Button) rootView.findViewById(R.id.save_button);
-        submit_button = (Button) rootView.findViewById(R.id.submit_button);
 
         Bundle bundle = getArguments();
         question = String.valueOf(bundle.get("Ques"));
@@ -136,16 +135,9 @@ public class QuestionDetailsFragment extends Fragment {
         save_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getContext(), "Saving in SQLite Database!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(), "Saving in SQLite Database!", Toast.LENGTH_SHORT).show();
                 int di = Integer.parseInt(id);
                 db.execSQL("UPDATE "+hp.TABLE_NAME+" SET Answer = "+button_selected+ " WHERE ID = "+ di);
-            }
-        });
-
-        submit_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
             }
         });
 
