@@ -1,5 +1,7 @@
+// Src:- http://www.androiddeft.com/2018/02/18/android-uploading-file-to-server-with-progress-bar/
 package com.mc.kvats.quizapp;
 
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.app.Service;
 import android.content.Context;
@@ -10,6 +12,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Environment;
+import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -32,12 +35,17 @@ import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
+import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
+import java.util.List;
+
+import pub.devrel.easypermissions.EasyPermissions;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_FILE_CODE = 200;
     private static final int READ_REQUEST_CODE = 300;
-    private static final String SERVER_PATH = "http://192.168.150.128/assignment3/index2.php";
+    private static final String SERVER_PATH = "http://192.168.150.128/upload.php";
     private File csv_file;
 
     private FrameLayout frameLayout;
@@ -100,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
         csv_file = new File(getExternalFilesDir((Environment.DIRECTORY_DOCUMENTS)), FILENAME);
         Log.d(TAG, csv_file.getName().toString());
 
+        hasPermission();
         if ( isConnected() ) {
             Toast.makeText(this, "Connected!", Toast.LENGTH_SHORT).show();
             CSVUploadAsyncTask csvUploadAsyncTask = new CSVUploadAsyncTask(this);
@@ -123,11 +132,32 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
+    public void hasPermission() {
+        if (EasyPermissions.hasPermissions(MainActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE)) {
+            return;
+
+        } else {
+            //If permission is not present request for the same.
+            EasyPermissions.requestPermissions(MainActivity.this, "This app needs access to your file storage so that it can read files.", READ_REQUEST_CODE, Manifest.permission.READ_EXTERNAL_STORAGE);
+        }
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
         db.execSQL("DROP TABLE QuestionAnswer");
     }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, MainActivity.this);
+    }
+
+//    @Override
+//    public void onPermissionsDenied(int requestCode, List<String> perms) {
+//        Log.d(TAG, "Permission has been denied");
+//    }
 
     private static String csvHelper(String str) {
         return "\"" + str + "\"";
@@ -154,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 HttpPost httpPost = new HttpPost(SERVER_PATH);
                 MultipartEntityBuilder multipartEntityBuilder = MultipartEntityBuilder.create();
-                multipartEntityBuilder.addPart("csv_file", new FileBody(csv_file));
+                multipartEntityBuilder.addPart("filename", new FileBody(csv_file));
                 MyHttpEntity.ProgressListener progressListener = new MyHttpEntity.ProgressListener() {
                     @Override
                     public void transferred(float progress) {
@@ -168,7 +198,8 @@ public class MainActivity extends AppCompatActivity {
                 if (statusCode == 200) {
                     // Server response
                     responseString = EntityUtils.toString(httpEntity);
-                    Toast.makeText(context, "File Uploaded", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(context, "File Uploaded", Toast.LENGTH_SHORT).show();
+                    Log.d(TAG, "File Uploaded");
                 }
                 else {
                     responseString = "Error occurred! Http Status Code: " + statusCode;
@@ -197,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
             super.onPreExecute();
             this.progressDialog = new ProgressDialog(this.context);
             this.progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-            this.progressDialog.setCancelable(false);
+            this.progressDialog.setCancelable(true);
             this.progressDialog.show();
         }
 
