@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5395b1243c581304ccead95f74064735\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8d996093b08fbff92bb2012812f256c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bf03340c9acdac6d316b0d57a6abd8ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fb27f6ec28e6ef63efdd84bdb4c8c4bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c443f289d4de43e98af587e4a882b373\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1c00204052a484fe59db125990eaba81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\22ae729d584056e1ff1b49c5aaa8d4b0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d803c759ac7fe2fd44a61f4e247e776\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9b8b84fe49033e89fbef5d9ee3609b11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\9a4d1cbc846a33feac6f357df0d4e44e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3012353f3c1e19d48c07106a326b044c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2635ca3971b7a4c7de0e06921ad985e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\66ec45d78aa7853a1cfc2938835d530d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3321b4f7e030e1b9231f2910ebcc2733\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d38e8115cb83fb947d1803f930748fb2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\108e05ff01292e353930884ffa437686\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\45ebb97bdf0ebb391e7bf20c8a750b64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9db5b261b3b1cf89b9a401dac3df1109\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\32f09906402ef2185a5bc40a6570811b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6a6497a60c1aeb261c9347f30c771d03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d402e2fdafb5954e2f9def12043331ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7f717f5615696033e3b1af535671faef\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\8c9c4e50aed033b1f8a66dbadbed3db1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2541db8e3809cc2015cc2b344dcf1051\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\19a9595b000cf41387884130f74939b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2a84f3a7fa137afe8832978860e80691\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\0c4b5bf5294c1e6611d5ba4e6d6f1454\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\20a366b0b98e16d0a3aa357994ef0e58\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\944a9653e2d1987ac10136babbbd3789\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.sensor.proximity
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:6:5-8:35
+	android:required
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:8:9-32
+	android:name
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:7:9-57
+uses-feature#android.hardware.sensor.gyroscope
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:9:5-11:35
+	android:required
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:11:9-32
+	android:name
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:10:9-57
+application
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:13:5-27:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\22ae729d584056e1ff1b49c5aaa8d4b0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\22ae729d584056e1ff1b49c5aaa8d4b0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9db5b261b3b1cf89b9a401dac3df1109\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9db5b261b3b1cf89b9a401dac3df1109\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7f717f5615696033e3b1af535671faef\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7f717f5615696033e3b1af535671faef\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9db5b261b3b1cf89b9a401dac3df1109\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.mc.kvats.sensodata.MainActivity
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:20:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5395b1243c581304ccead95f74064735\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5395b1243c581304ccead95f74064735\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8d996093b08fbff92bb2012812f256c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8d996093b08fbff92bb2012812f256c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bf03340c9acdac6d316b0d57a6abd8ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bf03340c9acdac6d316b0d57a6abd8ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fb27f6ec28e6ef63efdd84bdb4c8c4bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fb27f6ec28e6ef63efdd84bdb4c8c4bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c443f289d4de43e98af587e4a882b373\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c443f289d4de43e98af587e4a882b373\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1c00204052a484fe59db125990eaba81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1c00204052a484fe59db125990eaba81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\22ae729d584056e1ff1b49c5aaa8d4b0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\22ae729d584056e1ff1b49c5aaa8d4b0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d803c759ac7fe2fd44a61f4e247e776\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d803c759ac7fe2fd44a61f4e247e776\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9b8b84fe49033e89fbef5d9ee3609b11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9b8b84fe49033e89fbef5d9ee3609b11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\9a4d1cbc846a33feac6f357df0d4e44e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\9a4d1cbc846a33feac6f357df0d4e44e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3012353f3c1e19d48c07106a326b044c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3012353f3c1e19d48c07106a326b044c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2635ca3971b7a4c7de0e06921ad985e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2635ca3971b7a4c7de0e06921ad985e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\66ec45d78aa7853a1cfc2938835d530d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\66ec45d78aa7853a1cfc2938835d530d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3321b4f7e030e1b9231f2910ebcc2733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3321b4f7e030e1b9231f2910ebcc2733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d38e8115cb83fb947d1803f930748fb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d38e8115cb83fb947d1803f930748fb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\108e05ff01292e353930884ffa437686\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\108e05ff01292e353930884ffa437686\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\45ebb97bdf0ebb391e7bf20c8a750b64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\45ebb97bdf0ebb391e7bf20c8a750b64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9db5b261b3b1cf89b9a401dac3df1109\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9db5b261b3b1cf89b9a401dac3df1109\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\32f09906402ef2185a5bc40a6570811b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\32f09906402ef2185a5bc40a6570811b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6a6497a60c1aeb261c9347f30c771d03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6a6497a60c1aeb261c9347f30c771d03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d402e2fdafb5954e2f9def12043331ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d402e2fdafb5954e2f9def12043331ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7f717f5615696033e3b1af535671faef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7f717f5615696033e3b1af535671faef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\8c9c4e50aed033b1f8a66dbadbed3db1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\8c9c4e50aed033b1f8a66dbadbed3db1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2541db8e3809cc2015cc2b344dcf1051\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2541db8e3809cc2015cc2b344dcf1051\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\19a9595b000cf41387884130f74939b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\19a9595b000cf41387884130f74939b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2a84f3a7fa137afe8832978860e80691\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2a84f3a7fa137afe8832978860e80691\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\0c4b5bf5294c1e6611d5ba4e6d6f1454\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\0c4b5bf5294c1e6611d5ba4e6d6f1454\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\20a366b0b98e16d0a3aa357994ef0e58\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\20a366b0b98e16d0a3aa357994ef0e58\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\944a9653e2d1987ac10136babbbd3789\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kaust\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\944a9653e2d1987ac10136babbbd3789\AndroidManifest.xml:20:5-44
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+		ADDED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\College\Semester-5\MC_MobileComputing\iiitd-m2018-cse535\Assingment-4\app\src\main\AndroidManifest.xml
