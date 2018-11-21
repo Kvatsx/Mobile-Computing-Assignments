@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Senso Data</string>
+    <string name="sensor1">Accelerometer</string>
+    <string name="sensor2">Gyroscope</string>
+    <string name="sensor3">Orientation</string>
+    <string name="sensor4">GPS</string>
+    <string name="sensor5">Proximity</string>
+    <string name="showData">Show Data</string>
+    <string name="Start">Start</string>
+    <string name="Stop">Stop</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

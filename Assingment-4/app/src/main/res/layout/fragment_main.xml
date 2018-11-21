@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/accelerometer"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sensor1"
+                android:background="@color/Green"/>
+
+            <Button
+                android:id="@+id/gyroscope"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sensor2"
+                android:background="@color/Blue"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/orientation"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sensor3"
+                android:background="@color/Brown"/>
+
+            <Button
+                android:id="@+id/gps"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sensor4"
+                android:background="@color/LightBlue"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/proximity"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sensor5"
+                android:background="@color/Blue"/>
+
+            <Button
+                android:id="@+id/showData"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/showData"
+                android:background="@color/Green"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
