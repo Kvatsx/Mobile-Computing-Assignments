@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Oct 09 00:19:09 IST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\College\\Semester-5\\MC_MobileComputing\\iiitd-m2018-cse535\\Assignment-3\\QuizApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
