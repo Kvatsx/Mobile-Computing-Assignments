@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"> This is an Empty Fragment! </string>
+    <string name="option1">True</string>
+    <string name="option2">False</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+</resources>

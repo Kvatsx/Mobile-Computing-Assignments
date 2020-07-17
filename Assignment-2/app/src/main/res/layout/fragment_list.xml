@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:scrollbars="vertical" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/downloadedFiles"
+            android:layout_below="@+id/listView"
+            android:scrollbars="vertical">
+
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/Black">
+
+            <TextView
+                android:id="@+id/songName"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:scrollbars="vertical"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:maxLines="1"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/downloadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="140dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_file_download_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/stopButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="80dp"
+                android:src="@drawable/ic_stop_black_24dp"
+                android:backgroundTint="@color/white" />
+
+            <ImageButton
+                android:id="@+id/playButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_play_arrow_black_24dp"
+                android:backgroundTint="@color/white" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
