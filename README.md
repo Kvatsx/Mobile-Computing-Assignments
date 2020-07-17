@@ -1,2 +1,2 @@
-# iiitd-m2018-cse535
+# Mobile Computing Assignments
 CSE-535 Mobile Computing assignments repository
