@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IIITD Registration</string>
+    <string name="register">Register</string>
+    <string name="course_name">Course name</string>
+    <string name="branch">CSE, ECE or CSAM</string>
+    <string name="rollnumber">MT18xxx, 2015xxx</string>
+    <string name="button1">Submit</string>
+    <string name="button2">Clear</string>
+</resources>
